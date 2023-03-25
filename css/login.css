@@ -1,0 +1,67 @@
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		input {
+			outline: none;
+			padding: 10px 30px;
+		}
+
+		.registerback {
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-size: cover;
+			background-image: url('../img/景2.jpg');
+			position: fixed;
+		}
+
+		.register {
+			width: 400px;
+			height: 360px;
+			border-radius: 8px;
+			background-color: rgba(166, 110, 220, 0.9);
+			position: relative;
+			display: flex;
+			justify-content: center;
+			/* align-items: center; */
+		}
+
+		.registerContent {
+			/* position: absolute; */
+			margin: 0 auto;
+			line-height: 40px;
+		}
+
+		.top {
+			color: beige;
+			font-family: fantasy;
+			margin:10px 40px;
+			/* margin-top: 20px; */
+		}
+
+		.btn {
+			width: 100%;
+			text-align: center;
+		}
+		#registerBtn {
+			width: 117%;
+			height:40px;
+			background-color: beige;
+			cursor: pointer;
+		}
+
+		#info ul {
+			list-style-type: none
+		}
+
+		.footer {
+			width: 100%;
+			color: azure;
+			position: absolute;
+			text-align: center;
+			margin: 460px;
+			/* top: 245px; */
+		}
